@@ -1,0 +1,24 @@
+JavaScript (weatherApp.js):
+
+- Utilizes `$(document).ready()` to ensure DOM is fully loaded before executing scripts.
+- Implements functions to update date and time every second, fetch weather data, and fetch pictures asynchronously.
+- Handles errors gracefully, displaying appropriate messages for city not found or weather data unavailable.
+- Dynamically constructs HTML to display weather information and weather icons based on API response.
+- Changes background image dynamically based on weather conditions.
+- Fetches pictures from Unsplash API based on user input, displaying a random picture from the results.
+
+HTML (index.html):
+
+- Organizes document structure using semantic HTML elements like `<header>`, `<main>`, `<footer>`.
+- Provides input fields for city name and picture category, along with corresponding buttons for fetching weather and pictures.
+- Assigns unique IDs to input elements for easy manipulation in JavaScript.
+- Displays weather information and pictures in designated `<div>` containers (`weatherInfo` and `pictureContainer`).
+
+CSS (style.css):
+
+- Defines global styles for body, headings, input fields, buttons, and other elements for consistent appearance.
+- Utilizes flexbox for layout structuring and responsiveness.
+- Styles weather information display box (`#weatherInfo`) for readability and visibility.
+- Positions weather icon appropriately within the weather box.
+- Sets background images for different weather conditions, implementing transitions for smooth image changes.
+- Styles picture container (`#pictureContainer`) for proper display of fetched pictures, applying shadow effects and border radius for aesthetics.
